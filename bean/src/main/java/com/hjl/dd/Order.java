@@ -1,10 +1,12 @@
 package com.hjl.dd;
 
+import java.io.Serializable;
+
 /**
  * @author: HJL
  * @create: 2019-01-17 19:4
  */
-public class Order {
+public class Order implements Serializable{
 
     private Long id;
 

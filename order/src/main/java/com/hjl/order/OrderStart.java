@@ -1,6 +1,5 @@
 package com.hjl.order;
 
-import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
@@ -13,7 +12,6 @@ public class OrderStart {
 
     public static void main(String[] args) {
         new SpringApplicationBuilder(OrderStart.class)
-            .web(WebApplicationType.NONE)
             .build()
             .run(args);
 
